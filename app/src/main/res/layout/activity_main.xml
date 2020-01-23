@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/background_joker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_default"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/tvJoker"
+            android:gravity="center"
+            android:textStyle="italic|bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/joker_font_size"
+            android:textColor="@color/colorLabel"
+            android:text="@string/joker_one"/>
+
+    <Button
+            android:id="@+id/btTellJoker"
+            android:layout_marginTop="@dimen/margin_default"
+            android:layout_marginBottom="@dimen/margin_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_new_joker"
+            android:textAllCaps="false"
+            android:textColor="#9C27B0"
+            android:background="@drawable/rounded_button"/>
+
+</LinearLayout>
